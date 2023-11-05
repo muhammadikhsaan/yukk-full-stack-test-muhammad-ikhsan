@@ -1,0 +1,27 @@
+.history-transaction--balance-content--wrap {
+  @apply flex gap-2 h-32 w-full;
+}
+
+.history-transaction--balance-content--second-wrap {
+  @apply flex flex-wrap bg-white shadow-sm border-2 border-solid border-gray-100 py-4 px-4;
+}
+
+.history-transaction--balance-content--box-content {
+  @apply w-48;
+}
+
+.history-transaction--balance-content--unit {
+  @apply text-xs font-normal;
+}
+
+.history-transaction--balance-content--label {
+  @apply text-sm;
+}
+
+.history-transaction--balance-content--value {
+  @apply text-xl font-extrabold;
+}
+
+.history-transaction--balance-content--title {
+  @apply w-full;
+}

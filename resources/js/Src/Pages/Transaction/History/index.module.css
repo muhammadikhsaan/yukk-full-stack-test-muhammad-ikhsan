@@ -1,0 +1,11 @@
+.history-transaction--main-wrap {
+  @apply w-4/5 h-full gap-4 overflow-hidden flex flex-col;
+}
+
+.history-transaction--history-content--wrap {
+  @apply w-full max-h-[400px] gap-2 flex-grow flex relative overflow-auto px-4;
+}
+
+.history-transaction--logout-button {
+  @apply absolute top-5 right-4 text-sm font-bold cursor-pointer text-orange-600 py-2 px-4;
+}

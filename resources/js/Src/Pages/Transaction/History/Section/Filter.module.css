@@ -1,0 +1,23 @@
+.history-transaction--history-content--wrap {
+  @apply w-full max-h-[400px] gap-2 flex-grow flex relative overflow-auto px-4;
+}
+
+.history-transaction--history-content--filter-and-direct {
+  @apply w-1/3 flex flex-col gap-2 sticky left-0 top-0 border-2 border-solid border-gray-200 bg-white px-6 py-8 shadow-md;
+}
+
+.history-transaction--history-content--direct-button {
+  @apply text-center bg-green-500 w-full block py-2 text-white;
+}
+
+.history-transaction--history-content--filter-content {
+  @apply h-full w-full flex-grow overflow-hidden;
+}
+
+.history-transaction--form-element--wrap {
+  @apply flex flex-col;
+}
+
+.history-transaction--form-element--input {
+  @apply border border-solid border-gray-400 p-2 mt-2;
+}

@@ -1,0 +1,23 @@
+version: '3.1'
+
+services:
+  postgres:
+    image: postgres
+    container_name : pg.yukk
+    restart: always
+    ports:
+      - "5432:5432"
+    networks: 
+      - yukk
+    environment:
+      POSTGRES_USER : development-user
+      POSTGRES_PASSWORD: userpassword
+      POSTGRES_DB : yukk
+    volumes:
+     - pgdata:/var/lib/postgresql/data
+
+networks:
+  yukk:
+
+volumes:
+  pgdata:

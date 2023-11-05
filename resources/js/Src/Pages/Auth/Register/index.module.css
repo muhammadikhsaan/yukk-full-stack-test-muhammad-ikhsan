@@ -1,0 +1,35 @@
+.auth-register--main-wrap {
+  @apply w-1/3 bg-white h-full flex justify-center py-16 flex-col px-16 border-2 border-solid border-gray-300 shadow-md overflow-auto;
+}
+
+.auth-register--title {
+  @apply text-3xl font-bold mb-6;
+}
+
+.auth-register--form-wrap {
+  @apply flex flex-col;
+}
+
+.auth-register--form-element--wrap {
+  @apply mt-4 text-sm font-semibold tracking-wide flex flex-col gap-2;
+}
+
+.auth-register--form-element--input{
+  @apply border border-solid border-gray-400 p-2;
+}
+
+.auth-register--form-element--submit{
+  @apply bg-blue-500 text-white py-2 mt-4 w-full;
+}
+
+.auth-register--link--register {
+  @apply bg-green-500 text-white py-2 w-full text-center;
+}
+
+.auth-register--divider {
+  @apply text-center w-full;
+}
+
+.auth-register--button-wrap {
+  @apply w-full flex flex-col gap-1;
+}
