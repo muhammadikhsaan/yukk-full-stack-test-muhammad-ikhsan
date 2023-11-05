@@ -38,6 +38,9 @@ class Transaction extends Model
                 case 'type':
                     $queryTransaction->where("type", $value);
                     break;
+                case 'keyword':
+                    $queryTransaction->where("note", 'ilike', '%'.$value.'%');
+                    break;
                 default:
                     break;
             }

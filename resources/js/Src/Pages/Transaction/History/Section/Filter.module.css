@@ -11,7 +11,7 @@
 }
 
 .history-transaction--history-content--filter-content {
-  @apply h-full w-full flex-grow overflow-hidden;
+  @apply h-full w-full flex-grow overflow-auto;
 }
 
 .history-transaction--form-element--wrap {
